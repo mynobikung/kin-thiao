@@ -1,0 +1,4 @@
+DirectoryIndex disabled
+RewriteEngine On
+RewriteRule ^$ http://localhost:3000/mapraimairu [P,L]
+RewriteRule ^(.+)$ http://localhost:3000/mapraimairu/$1 [P,L]
